@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="878040890" file="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\YouTube\LicensePlateRecognition\License Plate Recognition.prj" location="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\YouTube\LicensePlateRecognition" name="License Plate Recognition" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2519042861" file="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub\LicensePlateRecognition\License Plate Recognition.prj" location="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub\LicensePlateRecognition" name="License Plate Recognition" target="target.mlapps" target-name="Package App">
     <param.appname>License Plate Recognition</param.appname>
     <param.authnamewatermark>Ethem Sozer</param.authnamewatermark>
     <param.email>ethem@angoratutor.com</param.email>
@@ -10,8 +10,8 @@
     <param.description>This app identifies the location of license plate characters on a license plate image and identifies each character.
 
 Copyright © Angora Tutor, 2020. All rights reserved.</param.description>
-    <param.screenshot>C:\Users\emsoz\AppData\Local\Temp\tpafd93c87_e085_489b_9c17_a0aa0a3e8ea3.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot />
+    <param.version>1.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -21,7 +21,7 @@ Copyright © Angora Tutor, 2020. All rights reserved.</param.description>
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
+      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -32,7 +32,6 @@ Copyright © Angora Tutor, 2020. All rights reserved.</param.description>
       <file>${PROJECT_ROOT}\LicensePlateRecognitionApp.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>C:\Users\emsoz\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\DataHash\DataHash.m</file>
       <file>${PROJECT_ROOT}\BlackAndWhiteConverterApp.mlapp</file>
       <file>${PROJECT_ROOT}\license_plate.jpg</file>
       <file>${PROJECT_ROOT}\LicensePlateRecognitionFinal.mlx</file>
@@ -44,7 +43,7 @@ Copyright © Angora Tutor, 2020. All rights reserved.</param.description>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\YouTube" name="LicensePlateRecognition" optional="false">C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\YouTube\LicensePlateRecognition</file>
+      <file location="C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub" name="LicensePlateRecognition" optional="false">C:\Users\emsoz\OneDrive - Angora Tutor\AngoraTutor\GitHub\LicensePlateRecognition</file>
     </build-deliverables>
     <workflow />
     <matlab>
